@@ -1,0 +1,15 @@
+# Build and dependency files
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files (API keys, credentials)
+.env
+
+# System and editor settings
+.DS_Store
+.vscode/
+.idea/
