@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.fullscreen-box {
+    width: 100vw;
+    min-height: 100vh;
+    height: 90%;
+    background: url('paper_01.jpg') center top no-repeat; 
+    background-size: 100% auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+h1 {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 375;
+    text-align: center;
+    font-size: clamp(12px,3vw,40px);
+    max-width: calc(100% - 1in);
+    margin: 0.5in auto 0 auto;
+    position: relative;
+    white-space: normal;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+
